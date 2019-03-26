@@ -2,15 +2,9 @@ package com.example.pcd.services;
 
 import com.example.pcd.entities.model.Person;
 import com.example.pcd.entities.repository.PersonRepository;
+import com.google.cloud.storage.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.google.cloud.storage.Blob;
-import com.google.cloud.storage.BlobId;
-import com.google.cloud.storage.BlobInfo;
-import com.google.cloud.storage.Storage;
-import com.google.cloud.storage.StorageOptions;
-
 
 import java.util.List;
 
